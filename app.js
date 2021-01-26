@@ -1,10 +1,5 @@
-// import functions and grab DOM elements
-import { getRandomPokemon } from './utils.js';
+import { setThreePokemon } from './utils.js';
 
-let pokeOne = getRandomPokemon();
-let pokeTwo = getRandomPokemon();
-let pokeThree = getRandomPokemon();
-// initialize state
+setThreePokemon();
 
 
-// set event listeners to update state and DOM
