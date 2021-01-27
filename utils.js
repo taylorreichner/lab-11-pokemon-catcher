@@ -52,7 +52,7 @@ export function renderPokeImage(pokemonItem) {
     image.addEventListener('click', () => {
         incrementCaught(pokemonItem._id);
 
-        if (numberOfTurns < 5) {
+        if (numberOfTurns < 10) {
             setThreePokemon();
         } else {
             window.location = 'results';
@@ -61,3 +61,8 @@ export function renderPokeImage(pokemonItem) {
 
     return image;
 }
+
+
+
+
+
