@@ -49,3 +49,4 @@ export function incrementCaught(_id) {
     setPokeStats(stats);
 }
 
+// export function clearCheckout() const stuff = getPokeStats(}
